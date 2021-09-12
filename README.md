@@ -57,12 +57,12 @@ Partition your disks with your favorite partitioning tool. I will use `fdisk` to
 ## Formatting and mounting disks
 
 ###### BIOS
-`mkfs.ext4 /dev/sdX`
+`mkfs.ext4 -v -t /dev/sdX`
 `mount /dev/sdX /mnt/perla`
 
 ###### UEFI (not tested)
 `mkfs.vfat -F 32 /dev/sdX1`
-`mkfs.ext4 /dev/sdX2`
+`mkfs.ext4 -v -t /dev/sdX2`
 `mount /dev/sdX2 /mnt/perla`
 `mount /dev/sdX1 /mnt/perla/boot`
 
