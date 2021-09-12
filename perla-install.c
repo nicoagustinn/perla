@@ -17,7 +17,6 @@ const char base[]= "base";
 const char *command = "./perla-build";
 
 int main(int argc, char *argv[]) {
-main:
 	if( argc == 2 ) {
 		int inst = (strcmp(base,argv[1]));  // What		
 		switch(inst) {
