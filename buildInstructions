@@ -1,0 +1,1 @@
+gcc -v perla-install.c -o perla-install
