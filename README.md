@@ -9,15 +9,15 @@ This is a complete list of all the tools needed in your live environment (or cur
 
 
 * Bash-3.2 (/bin/sh should be a symbolic or hard link to bash)
-* Binutils-2.25 (Versions greater than 2.37 are not recommended as they have not been tested)
+* Binutils-2.25
 * Bison-2.7 (/usr/bin/yacc should be a link to bison or small script that executes bison)
 * Bzip2-1.0.4
 * Coreutils-6.9
 * Diffutils-2.8.1
 * Findutils-4.2.31
 * Gawk-4.0.1 (/usr/bin/awk should be a link to gawk)
-* GCC-6.2 including the C++ compiler, g++ (Versions greater than 11.2.0 are not recommended as they have not been tested)
-* Glibc-2.11 (Versions greater than 2.34 are not recommended as they have not been tested)
+* GCC-6.2 including the C++ compiler, g++
+* Glibc-2.11
 * Grep-2.5.1a
 * Gzip-1.3.12
 * Linux Kernel-3.2
