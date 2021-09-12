@@ -17,11 +17,7 @@ const char *command = "python3 perla-build.py";
 int main(int argc, char *argv[]) {
 main:
 	if( argc == 2 ) {
-      		
-		printf("The argument supplied is %s\n", argv[1]);
-		
-		int inst = (strcmp(base,argv[1]));  // What
-		
+		int inst = (strcmp(base,argv[1]));  // What		
 		switch(inst) {
 			case 0:
 				system(command);
