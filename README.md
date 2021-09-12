@@ -1,3 +1,4 @@
+#### This is very unfinished! RUN AT YOUR OWN RISK!
 # Welcome to Perla Linux
 Perla Linux is a GNU/Linux distribution written completely from scratch.
 
