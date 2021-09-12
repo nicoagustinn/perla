@@ -73,4 +73,7 @@ Note: clone the repository where you want, I recommend in your home directory fo
 `cd perla`
 `./build.sh`
 
+## Install the 'base' package
+`perla-install base`
+
 #### This is very unfinished! RUN AT YOUR OWN RISK!
