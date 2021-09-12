@@ -27,6 +27,7 @@ This is a complete list of all the tools needed in your live environment (or cur
 * Perl-5.8.8
 * Python-3.4
 * Sed-4.1.5
+* Sudo (required to run build.sh, otherwise edit build.sh and run as root)
 * Tar-1.22
 * Texinfo-4.7
 * Xz-5.0.0
