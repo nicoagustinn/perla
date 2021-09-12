@@ -36,31 +36,37 @@ This is a complete list of all the tools needed in your live environment (or cur
 ## Usage
 Please run `perla-install base`, this program should do most of the work. You will be prompted when needed to do anything else.
 
-## Installation
-1. Partitioning disks
+# Installation
+## Partitioning disks
 
 Partition your disks with your favorite partitioning tool. I will use `fdisk` to do this.
 `fdisk /dev/sdX`
-#### BIOS
+
+###### BIOS
 `n`
 `(I recommend doing an entire partition for all the disk for BIOS systems)`
 `w`
-#### UEFI (not tested)
+
+###### UEFI (not tested)
 `n`
 `(At least 512MB for the /boot partition.)`
 `n`
 `(rest of disk)`
 `w`
-2. Formatting and mounting disks
-#### BIOS
+
+## Formatting and mounting disks
+
+###### BIOS
 `mkfs.ext4 /dev/sdX`
 `mount /dev/sdX /mnt/perla`
-#### UEFI (not tested)
+
+###### UEFI (not tested)
 `mkfs.vfat -F 32 /dev/sdX1`
 `mkfs.ext4 /dev/sdX2`
 `mount /dev/sdX2 /mnt/perla`
 `mount /dev/sdX1 /mnt/perla/boot`
-4. Clone the repository & 'cd' into it
+
+## Clone the repository & 'cd' into it
 Note: clone the repository where you want, I recommend in your home directory for quality of life improvements.
 `git clone https://github.com/nicoagustinn/perla.git`
 `cd perla`
